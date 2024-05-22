@@ -1,0 +1,220 @@
+*{
+    font-family: 'Outfit', sans-serif;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.info-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #212529;
+    padding: 10px 20px;
+}
+.info-container .fst-half {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex : 1;
+}
+.info-container .snd-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex : 1;
+
+}
+.info-container .snd-half .sub-half{
+    display: flex;
+    justify-content: space-between;
+
+}
+.info-container .snd-half .sub-half a{
+    padding: 0 0 0 10px;
+}
+.info-container a {
+    text-decoration: none;
+    color: white;
+}
+.nav-container .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+.nav-container .navbar ul{
+    display: flex;
+}
+.nav-container .navbar ul li{
+    list-style: none;
+}
+.nav-container .navbar ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #212529;
+}
+.nav-container img{
+    width: 100px;
+}
+.nav-container .navbar .search-bar input{
+    height: 40px;
+    border: none;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 16px;
+    background-color: #e9ecef ;
+    padding-left: 20px;
+    margin: 20px 0px 20px 100px ;
+    
+}
+.nav-container .navbar .search-bar input:focus {
+    outline: none !important;
+}
+.nav-container .navbar .btn a button{
+    width: 65px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 40px;
+    border-radius: 30px;
+    height: 300px ;
+    width: auto;
+background: linear-gradient(225deg, rgba(0,0,0,1) 50%, rgba(51,212,26,1) 50%);;
+    
+}
+
+.banner-container .content p{
+    color: white;
+    margin: 0 0 0 70px;
+    font-size: 60px;
+}
+
+.banner-container a button{
+    color: white;
+    margin: 15px 0 0 70px;
+    padding: 5px  25px;
+    font-size: 20px;
+    background: rgb(7, 41, 2); 
+    border: none;
+    border-radius: 25px ;
+    cursor: pointer;
+}
+
+.banner-container .content-2 p{
+    color: white;
+    margin: 0 70px 0 0px;
+    font-size: 60px;
+    text-align: end;
+    line-height: 1;
+}
+.filters{
+  margin-top:25px ;   
+}
+.filters nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters nav ul{
+    display: flex;
+    list-style: none;    
+}
+ .filters nav ul li a{
+    text-decoration: none;
+    margin: 20px 15px;
+    padding: 5px 20px;
+    background-color: #e9ecef ;
+    border-radius: 25px;
+ }
+ .filters nav a button{
+    color: #212529;
+    margin: 0 50px 0 0px;
+    padding: 5px 25px;
+    font-size: 18px;
+    background: white; 
+    border: 2px solid #212529;
+    border-radius: 25px ;
+    cursor: pointer;
+
+ }
+ .filters nav a button:hover{
+    background-color: #212529;
+    color: white;
+ }
+ 
+.material-symbols-outlined {
+    align-items: baseline;
+}
+.product-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product-container .products{
+    height: 400px;
+    max-width: 300px;
+    background-color: #e5eaee;
+    margin-bottom: 15px ;
+    padding-bottom: 30px;
+    border-radius: 25px;
+    
+}
+.product-container .products img{
+    object-fit: cover;
+    object-position: center center;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px 25px 0 0;
+}
+.product-container .products h1{
+    line-height: 2px;
+    font-weight: 500;
+    margin: 20px 20px;
+} 
+.product-container .products p{
+    line-height: 2px;
+    font-weight: 300;
+    margin: 20px 20px;
+}
+.product-container .products .info{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.product-container .products .info .cost p{
+    margin: 20px 20px;
+    font-size: 30px;
+}
+.product-container .products .cart button{
+    color: white; 
+    text-align: center;   
+    padding: 5px 25px;
+    font-size: 18px;
+    background: #212529 ;
+    
+    border-radius: 25px ;
+    cursor: pointer;
+    margin-top: 10px;   
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+.product-container .products .cart button:hover{
+    color: #212529;
+    background-color: white;
+    border: none;
+}
+.brands h1{
+    margin: 10px 40px;
+    font-size: 50px;
+}
